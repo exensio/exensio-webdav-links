@@ -20,7 +20,9 @@ This plug-in could be used to:
 
 ##Usage example-1:
 ```html
-<a class="my-office-link-class" href="my-webdav-url">Click to open WebDAV Resource with your local MS Office Program</a>
+<a class="my-office-link-class" href="my-webdav-url">
+   Click to open WebDAV Resource with your local MS Office Program
+</a>
 ```
 
 ```javascript
@@ -32,7 +34,7 @@ $('.my-office-link-class').officeLinks();
 
 ```javascript
 $('.my-office-link-class').officeLinks({
- createWinFirefoxPlugin: false
+    createWinFirefoxPlugin: false
 });
 ```
 
