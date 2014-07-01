@@ -4,9 +4,11 @@ MS-Office-WebDAV-Links
 MS Office WebDAV Links jQuery plug-in by exensio http://www.exensio.de
 
 
-This plug-in could be used to generate Hyper-Links to WebDAV resources.
+This plug-in could be used to:
+ - detect the availability of MS-Office installation on client machine (where the web browser is installed)
+ - generate Browser-Links to open MS-Office resources on WebDAV Server
  - If a MS-Office installation is available on the client machine, the referenced resources will be opened with MS Office
- - All links will be hidden if no Office installation is available
+ - All links will be hidden if no Office is installed
 
 
 ##Tested with:
@@ -17,22 +19,25 @@ This plug-in could be used to generate Hyper-Links to WebDAV resources.
 
 
 ##Usage example-1:
+```html
+<a class="my-office-link-class" href="my-webdav-url">Click to open WebDAV Resource with your local MS Office Program</a>
+```
 
 ```javascript
 $('.my-office-link-class').officeLinks();
 ```
 
 
-##Usage example-2, call with options (unused):
+##Usage example-2, call with options:
 
 ```javascript
 $('.my-office-link-class').officeLinks({
-        createWinFirefoxPlugin: false
+ createWinFirefoxPlugin: false
 });
 ```
 
 
 ##License
-MIT License. See LICENSE.
+MIT License. See LICENSE
 
 ©2014 [exensio GmbH](http://www.exensio.de)
