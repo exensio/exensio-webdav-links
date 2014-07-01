@@ -29,6 +29,6 @@ $('.my-office-link-class').officeLinks({
 
 
 ##License
-MIT License. See LICENSE.TXT.
+MIT License. See LICENSE.
 
 ©2014 [exensio GmbH](http://www.exensio.de)
