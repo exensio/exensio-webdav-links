@@ -6,9 +6,9 @@ MS Office WebDAV Links jQuery plug-in by exensio http://www.exensio.de
 
 This plug-in could be used to:
  - detect the availability of MS-Office installation on client machine (where the web browser is installed)
- - generate Browser-Links to open MS-Office resources on WebDAV Server
- - If a MS-Office installation is available on the client machine, the referenced resources will be opened with MS Office
- - All links will be hidden if no Office is installed
+ - generate Browser-Links to open MS-Office resources hosted on WebDAV Server
+ - If a MS-Office installation is available on the client machine, the referenced resources will be opened with MS-Office via WebDAV protocol
+ - All links will be hidden if no MS-Office is installed
 
 
 ##Tested with:
