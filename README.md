@@ -1,7 +1,7 @@
 MS-Office-WebDAV-Links
 ======================
 
-MS Office WebDAV Links jQuery plug-in by exensio http://www.exensio.de
+MS Office WebDAV Links jQuery plug-in by [exensio](https://www.exensio.de)
 
 
 This plug-in could be used to:
@@ -10,15 +10,19 @@ This plug-in could be used to:
  - If a MS-Office installation is available on the client machine, the referenced resources will be opened with MS-Office via WebDAV protocol
  - All links will be hidden if no MS-Office is installed
 
+## [exensio GmbH Blog](https://www.exensio.de/news-medien)
 
-##Tested with:
+This repositroy is created for the blogpost: [Das neue WebDAV Modul in Claretportal sorgt für bessere Integration mit MS Office Programmen](https://www.exensio.de/news-medien/newsreader-blog/das-neue-webdav-modul-in-claretportal-sorgt-fuer-bessere-integration-mit-ms-office-programmen)
+
+
+## Tested with:
  - Windows XP WITHOUT Office installation (all links will be hidden), IE 8
  - Windows 7 with Office 2010, Chrome, IE 10
  - Windows 8 with Office 2013, Chrome
  - OS X 10.9 with Office for Mac 2011, Safari 7
 
 
-##Usage example-1:
+## Usage example-1:
 ```html
 <a class="my-office-link-class" href="my-webdav-url">
    Click to open WebDAV Resource with your local MS Office Program
@@ -30,7 +34,7 @@ $('.my-office-link-class').officeLinks();
 ```
 
 
-##Usage example-2, call with options:
+## Usage example-2, call with options:
 
 ```javascript
 $('.my-office-link-class').officeLinks({
@@ -39,7 +43,7 @@ $('.my-office-link-class').officeLinks({
 ```
 
 
-##License
+## License
 MIT License. See LICENSE
 
 ©2014 [exensio GmbH](http://www.exensio.de)
